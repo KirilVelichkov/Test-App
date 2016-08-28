@@ -17,7 +17,7 @@ export class App extends ApplicationBase{
         this.addRoute('Home', new HomePage(), true);
         this.addRoute('Cars', new CarsPage());
         this.addRoute('Drones', new DronesPage());
-        this.addRoute('Map1', new MapPage());
+        this.addRoute('Map', new MapPage());
     }
 }
 
